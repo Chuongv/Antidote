@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'toxcore/toxcore/**/*.{c,h}'
-  s.public_header_files = 'toxcore/toxcore/**/*.h'
-  s.dependency 'libsodium', '~> 1.0.1'
+  s.source_files = 'toxcore/toxcore/*.{c,h}'
+  s.public_header_files = 'toxcore/toxcore/*.h'
+  s.dependency 'libsodium', '~> 1.0.2'
 end
